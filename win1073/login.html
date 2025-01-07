@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Win1073</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="background">
+        <div class="light-orb"></div>
+        <div class="light-orb"></div>
+        <div class="light-orb"></div>
+    </div>
+
+    <div class="wrapper glass">
+        <form action="#">
+            <h2>Login</h2>
+            <div class="input-field">
+                <input type="text" required>
+                <label>Enter your email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required>
+                <label>Enter your password</label>
+            </div>
+            <div class="forget">
+                <label for="remember">
+                    <input type="checkbox" id="remember">
+                    <p>Remember me</p>
+                </label>
+            </div>
+            <button type="submit">Log In</button>
+            <div class="register">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="wrapper glass">
+        <form id="registerForm">
+            <h2>Register</h2>
+            <div class="input-field">
+                <input type="email" id="registerEmail" required>
+                <label>Enter your email</label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <div class="register">
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html> 

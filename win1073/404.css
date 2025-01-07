@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.error-container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.error-container h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.error-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.error-container a {
+    color: #a8b2ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error-container a:hover {
+    text-decoration: underline;
+} 
